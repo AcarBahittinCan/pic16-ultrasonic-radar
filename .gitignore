@@ -1,0 +1,37 @@
+# MPLAB X build output
+firmware/**/build/
+firmware/**/dist/
+firmware/**/debug/
+firmware/**/nbproject/private/
+firmware/**/nbproject/Makefile-*
+firmware/**/nbproject/Package-*.bash
+*.o
+*.d
+*.p1
+*.pre
+*.cof
+*.elf
+*.sym
+*.cmf
+*.hxl
+*.sdb
+*.lst
+*.map
+*.hex
+
+# Proteus backups / workspace files
+*.pdsbak
+*.workspace
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
